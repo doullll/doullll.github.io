@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,17 +17,19 @@
             margin: 0;
         }
 
-        img {
-            width: 18%;
+        img#profile {
+            width: 11%;
             margin: 20px;
-        }
-
-        #profile {
             border: 5px solid black;
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
+
+        img#album {
+            width: 80%;
+        }
+
 
         #grid {
             display: grid;
@@ -48,7 +51,9 @@
     </ul><br>
     <h2>도울의 최애 앨범 - The Last Boy In The Class 2</h2>
     <div id="grid">
-        <img src="앨범커버.jpg" title="The Last Boy In The Class 2" alt="이미지를 불러올 수 없습니다.">
+        <div>
+            <img id="album" src="앨범커버.jpg" title="The Last Boy In The Class 2" alt="이미지를 불러올 수 없습니다.">
+        </div>
         <div>
             <ol>
                 <li><a href="https://www.youtube.com/watch?v=IIiDW8dKokQ&list=OLAK5uy_loXW50dr3xqIV-3qD5Z4jmr_v3MOioLzU"

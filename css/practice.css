@@ -1,0 +1,17 @@
+/* 얘가 기본값 */
+div {
+    box-sizing: content-box;
+}
+
+/* 얘가 더 좋음  */
+div {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ img {
+    height: 20vw;
+ }
